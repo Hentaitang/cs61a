@@ -1,0 +1,9 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE parents(parent,child);
+INSERT INTO parents VALUES('ace','bella');
+INSERT INTO parents VALUES('ace','charlie');
+INSERT INTO parents VALUES('daisy','hank');
+INSERT INTO parents VALUES('finn','ace');
+INSERT INTO parents VALUES('finn','dixie');
+COMMIT;
